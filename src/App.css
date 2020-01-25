@@ -1,7 +1,9 @@
 @import '~antd/dist/antd.css';
-
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap');
 * {
   text-align: center;
+font-family: 'Do Hyeon', sans-serif;
+
 }
 
 h1,
@@ -9,16 +11,17 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6 ,p{
   margin: 0;
 }
+
 #header{
 margin-top: 3vw;
 }
 #lists {
   display: grid;
   justify-items: center;
-  grid-gap: 3.2vw;
+  grid-gap: 0.865vw;
   margin: 1em auto;
   width: 70vw;
   background: white;
@@ -29,13 +32,14 @@ margin-top: 3vw;
   object-fit: cover;
 
   display: block;
-  margin: 0 auto;
+  margin: 1.16vw auto;
   border-radius: 15px;
+
 }
 
 .list-link {
   display: grid;
-  width: 60vw;
+  width: 35vw;
   grid-auto-flow: column;
   grid-auto-columns: 40% 60%;
   justify-content: center;
@@ -57,6 +61,14 @@ margin-top: 3vw;
   display: inline-block;
   border-radius: 15px 0px 0px 15px;
 }
+
+/*over width 15vw, the arrows come out wrongly*/
 .ant-popover {
-  max-width: 20vw;
+  max-width: 15vw;
 }
+#footer {
+
+width :100%;
+border-radius:15px 15px 0px 0px;
+}
+
