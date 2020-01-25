@@ -21,14 +21,14 @@ margin-top: 3vw;
 #lists {
   display: grid;
   justify-items: center;
-  grid-gap: 0.865vw;
+  grid-gap: 3.3vw;
   margin: 1em auto;
   width: 70vw;
   background: white;
 }
 
 .cat-sns-main-img {
-  width: 50vw;
+  width: 60vw;
   object-fit: cover;
 
   display: block;
@@ -39,7 +39,7 @@ margin-top: 3vw;
 
 .list-link {
   display: grid;
-  width: 35vw;
+  width: 60vw;
   grid-auto-flow: column;
   grid-auto-columns: 40% 60%;
   justify-content: center;

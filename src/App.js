@@ -18,7 +18,6 @@ function App() {
         <p>세상에 버림받았던 아이들과의 묘연</p>
       </header>
       <Layout id="lists">
-        {' '}
         <Popover
           placement="right"
           content={
