@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import {Layout, Anchor, Popover, Row} from 'antd';
-const {Link} = Anchor;
+import {Layout, Popover} from 'antd';
 
 function App() {
   return (
     <>
       <header id="header">
-        <Popover placement="right" content={<h2>😻️</h2>}>
+        <Popover placement="right" content={<span aria-label="😻️">😻️</span>}>
           <img
             className="cat-sns-main-img"
             alt="cat-sns-logo-hug-seven"
@@ -34,7 +33,8 @@ function App() {
           <div className="list-link">
             <div className="img-wrapper">
               <img
-                className="link-img"
+             alt=""   
+	      className="link-img"
                 src="https://user-images.githubusercontent.com/35059428/73117502-7dac5b00-3f81-11ea-8b04-678856c6d550.png"
               />
             </div>
@@ -44,7 +44,7 @@ function App() {
               <p>
                 <a
                   href="https://www.paypal.me/betterworldforweak"
-                  target="_blank">
+                  target="_blank"  rel="noopener noreferrer">
                   페이팔
                 </a>
               </p>
@@ -64,14 +64,14 @@ function App() {
           }>
           <a
             className="list-link"
-            target="_blank"
+            target="_blank"  rel="noopener noreferrer"
             href="https://bit.ly/wholesome-donate-mall">
             <div className="img-wrapper">
               
               <img
                 className="link-img"
                 src="https://user-images.githubusercontent.com/35059428/73065048-92cfae00-3edd-11ea-900d-9be5316e5e5e.png"
-              />
+              alt="홀썸이네 후원몰"/>
             </div>
             <div>
               <h2>후원몰</h2>
@@ -90,12 +90,13 @@ function App() {
           }>
           <a
             className="list-link"
-            target="_blank"
+            target="_blank"  rel="noopener noreferrer"
             href="https://www.youtube.com/channel/UC4kb6gxOTKVBIKcFfZPiwoQ?view_as=subscriber">
             <div className="img-wrapper">
               <img
                 className="link-img"
-                src="https://user-images.githubusercontent.com/35059428/73070683-e9dc7f80-3eeb-11ea-9dec-4667f53d5673.png"
+                alt="유튜브 채널"
+		src="https://user-images.githubusercontent.com/35059428/73070683-e9dc7f80-3eeb-11ea-9dec-4667f53d5673.png"
               />
             </div>
             <h2>유튜브 구독</h2>
@@ -113,11 +114,12 @@ function App() {
           }>
           <a
             className="list-link"
-            target="_blank"
+            target="_blank"  rel="noopener noreferrer"
             href="https://instagram.com/6catmom.zena">
             <div className="img-wrapper">
               <img
-                className="link-img"
+              alt="캣맘 인스타그램"  
+	      className="link-img"
                 src=" https://scontent-sin6-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/66765412_573054289894341_4324031579364691792_n.jpg?_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_cat=109&_nc_ohc=MiMmX_JlqTYAX86e8MC&oh=2b64f3c204382a120ea1b6317b23fd74&oe=5ED72C9C "
               />
             </div>
@@ -139,11 +141,12 @@ function App() {
           }>
           <a
             className="list-link"
-            target="_blank"
+            target="_blank"  rel="noopener noreferrer"
             href="https://instagram.com/___sj___y">
             <div className="img-wrapper">
               <img
-                className="link-img"
+             alt="캣대디 인스타"  
+	      className="link-img"
                 src="https://scontent-sin6-1.cdninstagram.com/v/t51.2885-15/e35/47581801_323181528283940_4634403341321352258_n.jpg?_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_cat=108&_nc_ohc=qw80QeZfxH0AX9pz6Q4&oh=60674f16f04990cef52b37c64ec03f66&oe=5EC212C0"
               />
             </div>
