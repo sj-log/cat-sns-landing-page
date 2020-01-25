@@ -37,7 +37,7 @@ function App() {
                 src="https://user-images.githubusercontent.com/35059428/73117502-7dac5b00-3f81-11ea-8b04-678856c6d550.png"
               />
             </div>
-            <div>
+            <div className="text-info">
               <h2>후원계좌</h2>
               <p>신한 110-499-513028 김**</p>
               <p>
@@ -72,7 +72,7 @@ function App() {
                 src="https://user-images.githubusercontent.com/35059428/73065048-92cfae00-3edd-11ea-900d-9be5316e5e5e.png"
               alt="홀썸이네 후원몰"/>
             </div>
-            <div>
+            <div className="text-info">
               <h2>후원몰</h2>
               <p>집사님들을 위한 더 나은 방식의 후원</p>
             </div>
@@ -98,7 +98,9 @@ function App() {
 		src="https://user-images.githubusercontent.com/35059428/73070683-e9dc7f80-3eeb-11ea-9dec-4667f53d5673.png"
               />
             </div>
+            <div className="text-info">
             <h2>유튜브 구독</h2>
+	    </div>
           </a>
         </Popover>
         <Popover
@@ -122,7 +124,8 @@ function App() {
                 src=" https://scontent-sin6-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/66765412_573054289894341_4324031579364691792_n.jpg?_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_cat=109&_nc_ohc=MiMmX_JlqTYAX86e8MC&oh=2b64f3c204382a120ea1b6317b23fd74&oe=5ED72C9C "
               />
             </div>
-            <div>
+            <div className="text-info">
+
               <h2>캣맘</h2>
               <p>@6catmom.zena</p>
             </div>
@@ -149,7 +152,7 @@ function App() {
                 src="https://scontent-sin6-1.cdninstagram.com/v/t51.2885-15/e35/47581801_323181528283940_4634403341321352258_n.jpg?_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_cat=108&_nc_ohc=qw80QeZfxH0AX9pz6Q4&oh=60674f16f04990cef52b37c64ec03f66&oe=5EC212C0"
               />
             </div>
-            <div>
+            <div className="text-info">
               <h2>캣대디</h2>
               <p>@___sj___y</p>
             </div>
