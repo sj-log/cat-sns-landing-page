@@ -1,0 +1,141 @@
+@import "~antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+* {
+  text-align: center;
+}
+.landingPage-wrapper{
+width:90vw;
+margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: 'Black Han Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 3.9em;
+}
+.title-description {
+  margin-bottom: 1.16em;
+}
+#lists {
+  display: grid;
+  grid-template-columns : 50% 50%;
+  justify-items: center;
+  margin: 1.1618rem auto ;
+  width: 100%;
+  background: white;
+}
+
+.cat-sns-main-img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+/* list links*/
+.list-link {
+  display: grid;
+  width:100%;
+  grid-auto-flow: column;
+  align-items: center;
+  box-shadow: 3px 9px 15px 0px #80808057;
+}
+.text-info {
+}
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.grid {
+	display:grid;
+}
+.grid-2{
+
+	display:grid;
+grid-gap:1.1618rem;
+	align-content: space-around;
+justify-content: space-between;
+grid-template-columns:50% 50%;
+}
+.grid-3{
+display:grid;
+grid-template-columns:33.3% 33.3% 33.3%;
+}
+.grid-4{
+display: grid;
+grid-template-columns:  25% 25% 25% 25%;
+}
+.radius{
+border-radius: 1.1618rem;
+}
+
+
+.link-img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  display: inline-block;
+}
+
+/*over width 15vw, the arrows come out wrongly*/
+@media (max-width: 767px) {
+  .ant-popover {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .ant-popover {
+    max-width: 15vw;
+  }
+}
+.thanks-to-who-helped-us{
+overflow:scroll;
+	width:auto;
+	margin: 0 auto;
+display:grid;
+} 
+.two-people{ display:grid; grid-template-columns: 50% 50%;
+width:30vw;
+margin: 0 auto;
+}
+#footer {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+.ul-clear{
+list-style:none;
+padding:0;
+margin:0;
+}
+
+.frame {
+	padding:1.1618rem;
+	h1{
+	font-size:1.1618rem*2;
+	}
+    margin-top: 1.1618rem;
+	width:100%;
+box-shadow: 18px 15px 13px 3px grey;
+}
